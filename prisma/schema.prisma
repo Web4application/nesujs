@@ -1,0 +1,11 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("https://nyatadsfrhtbfxfnyldv.supabase.co")
+  directUrl = env("https://nesujs-q3rvvfx5r-web4apps.vercel.app")
+}
+        
